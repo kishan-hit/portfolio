@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        #print{
+            width: 10%;
+            display: block;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            background-color: blue;
+            width: 60px;
+            border-radius: 5px;
+            margin-top: 50px;
+        }
+        #print:hover{
+            cursor: pointer;
+            background-color: rgb(62, 62, 146);
+        }
+        #resume{
+            font-weight: bolder;
+            font-style: italic;
+            text-align: center;
+        }
+        #main{
+            /* border: 1px solid red; */
+            display: flex;
+            width: 80%;
+            margin-left: 140px;
+            margin-right: 40px;
+            background-color: rgb(241, 240, 240);
+        }
+        #left{
+            /* border: 1px solid green; */
+            width: 50%;
+            padding-left: 60px;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        #left span{
+            font-weight: 900;
+            font-size: 25px;
+        }
+        #right{
+            /* border: 1px solid blue; */
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #right img{
+            height: 130px;
+            width: 105px;
+            text-align: center;
+        }
+        #edu{
+            margin-left: 140px;
+            padding-left: 60px;
+            font-size: 17px;
+        }
+        #edu span{
+            font-size: 25px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+        #skills{
+            margin-left: 140px;
+            padding-left: 60px;
+            font-size: 17px;
+        }
+        #skills span{
+            font-size: 25px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+        #others{
+            margin-left: 140px;
+            padding-left: 60px;
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body id="body">
+    <div id="data">
+    <div>
+        <h1 id="resume">RESUME</h1>
+    </div>
+    <hr>
+    <div id="main">
+        <div id="left">
+            <span>KISHAN KUMAR</span><br>
+            s/o - Dhananjay Kumar<br>
+            vill - Chhoti Tengraila<br>
+            P.O - Amarpura<br>
+            P.S - Naubatpur<br>
+            Dist. - Patna<br>
+            State - Bihar<br>
+            Mobile - 7070665732<br>
+            Email - kishankmr74800@gmail.com
+        </div>
+        <div id="right">
+            <img src="images/KK_pass.jpeg">
+        </div>
+    </div>
+    <hr>
+    <div id="edu">
+        <span> Educational Qualifications </span>
+        <ul>
+            <li>Currently pursuing Computer Science Engineering from Heritage Institute Of Technology</li>
+            <li>Completed Higher Secondary Education with 81% from Cambridge Public School(CBSE board)</li>
+            <li>Completed Junnior Secondary Education with 10 CGPA from Cambridge Public School(CBSE board)</li>
+        </ul>
+    </div>
+    <hr>
+    <div id="skills">
+        <span> Skills </span>
+        <ul>
+            <li>Good knowledge of - <b>C/C++ programming</b></li>
+            <!-- <li>Good knowledge of - <b>Java programming(Basic)</b></li> -->
+            <!-- <li>Good knowledge of - <b>Python(Basic)</b></li> -->
+            <li>Good knowledge of - <b>SQL</b></li>
+            <li>Good knowledge of frontend languages such as - <b>HTML,CSS & Javascript</b></li>
+            <li><b>Developer tools used - </b> VScode,Codeblocks</li>
+        </ul>
+    </div>
+    <hr>
+    <div id="others">
+        <b>Languages known :</b> Hindi,English<br>
+        <b>Marital status :</b> Unmarried
+    </div>
+    </div>
+    <button id="print" onclick="printPage()">Print</button>
+</body>
+<script>
+    function printPage(){
+        var body = document.getElementById('body').innerHTML;
+        var data = document.getElementById('data').innerHTML;
+        document.getElementById('body').innerHTML=data;
+        window.print();
+        document.getElementById('body').innerHTML=body;
+    }
+</script>
+</html>
