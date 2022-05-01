@@ -2,9 +2,15 @@
     margin: 0px;
     padding: 0px; 
  }
+ html{
+     font-size: 95%;
+ }
  body{
      font-family: 'Ubuntu', sans-serif;
  }
+ /* #portfolio{
+     border: 4px solid red;
+ } */
  #main1{
      background-image: url("images/bg1.jpg");
      background-size: cover;
@@ -13,14 +19,14 @@
      position: sticky;
  } */
  .nav{
-     height: 90px;
-     width: 100%;
+     height: 5.625rem;
+     width: 100vw;
      display: flex;
      margin-top: 10px;
  }
  .logo{
      color: #faebd7;
-     height: 88px;
+     height: 5rem;
      width: 30%;
      font-size: 2.2rem;
      display: flex;
@@ -41,8 +47,8 @@
      }
  }
  .logo img{
-     margin-top: 20px;
-     height: 70px;
+     margin-top: 1.25rem;
+     height: 4.375rem;
      width: 60%;
  }
  #menu{
@@ -52,8 +58,8 @@
      display: flex;
      align-items: center;
      justify-content: center;
-     right: 30px;
-     height: 88px;
+     right: 1.875rem;
+     height: 5.563rem;
      width: 60%;
      font-size: 1.6rem;
  }
@@ -68,15 +74,15 @@
      float: right;
      display: block;
      text-decoration: none;
-     padding: 3px 22px;
-     border-radius: 10px;
+     padding: 0.188rem 1.375rem;
+     border-radius: 0.625rem;
  }
  #menu ul a:hover{
      background-color: gray;
  }
  .main{
      width: 100%;
-     height: 650px;
+     height: 40.625rem;
      display: flex;
  }
  .l{
@@ -87,18 +93,19 @@
      width: 50%;
  }
  .r img{
-     padding-left: 185px;
-     height: 650px;
-     width: 700px;
+     padding-left: 9.375rem;
+     height: 40.625rem;
+     width: 43.75rem;
+     position: relative;
  }
  .l1{
      display: block;
      margin: auto;
      position: relative;
-     margin-top: 200px;
+     margin-top: 12.5rem;
      font-size: 1.2rem;
      text-align: left;
-     margin-left: 200px;
+     margin-left: 12.5rem;
      color: rgb(224, 176, 176);
  }
  strong{
@@ -110,9 +117,9 @@
      color: rgb(243, 60, 60);
  }
  .l1 a{
-     padding: 10px 25px ;
+     padding: 0.625rem 1.563rem ;
      text-decoration: none;
-     border-radius: 8px;
+     border-radius: 0.5rem;
      background-color: red;
      color: white;
      font-size:medium;
@@ -123,7 +130,7 @@
      background-color: rgb(243, 49, 49);
  }
  #about{
-     height: 770px;
+     height: 48.125rem;
      width: 100%;
      background-image:url("images/back1.jpg");
      background-repeat: no-repeat;
@@ -134,13 +141,13 @@
      backdrop-filter: blur(600px);
  } */
  .head{
-     height:90px;
+     height:5.625rem;
      width: 100%;
      text-align: center;
-     padding-top: 40px;
+     padding-top: 2.5rem;
  }
  #abt{
-     height: 130px;
+     height: 8.125rem;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -154,19 +161,19 @@
      display: flex;
      align-items: center;
      justify-content: center;
-     padding-top: 25px;
+     padding-top: 1.563rem;
  }
  #abt2l img{
-     height: 400px;
-     width: 310px;
+     height: 25rem;
+     width: 19.375rem;
  }
  #abt2r{
      width: 40%;
      text-align: justify;
-     padding-top: 45px;
+     padding-top: 2.813rem;
  }
  #abt2r{
-     font-size: 20px;
+     font-size: 1.25rem;
  }
  /* .l1 strong{
      position: relative;
@@ -194,35 +201,35 @@
      }
  } */
  #skills{
-     height: 770px;
+     height: 48.125rem;
      width: 100%;
      background-image:url("images/back1.jpg");
      background-repeat: no-repeat;
      background-size: cover;
  }
  #skills h1{
-     height: 130px;
+     height: 8.125rem;
      display: flex;
      align-items: center;
      justify-content: center;
  }
  #skills2{
-     border: 2px solid black;
+     border: 0.125rem solid black;
      background-color: rgb(206, 235, 225);
-     border-radius: 8px;
+     border-radius: 0.5rem;
      width: 60%;
      display: block;
      margin: auto;
-     padding-top: 25px;
-     padding-bottom: 25px;
-     padding-left: 250px;
+     padding-top: 1.563rem;
+     padding-bottom: 1.563rem;
+     padding-left: 15.625rem;
      font-size: 1.3rem;
  }
  #skills2 li{
      color: rgb(71, 17, 17);
  }
  #contact{
-     height: 770px;
+     height: 48.125rem;
      width: 100%;
      background-image:url("images/back1.jpg");
      background-repeat: no-repeat;
@@ -233,37 +240,37 @@
      color: rgb(71, 17, 17);
  }
  #contact h1{
-     height: 130px;
+     height: 8.125rem;
      display: flex;
      align-items: center;
      justify-content: center;
-     padding-bottom: 100px;
+     padding-bottom: 6.25rem;
  }
  #ul{
-     border: 2px solid black;
+     border: 0.125rem solid black;
      background-color: rgb(206, 235, 225);
-     border-radius: 8px;
+     border-radius: 0.5rem;
      width: 60%;
      display: block;
      margin: auto;
-     padding-top: 25px;
-     padding-bottom: 25px;
-     padding-left: 250px;
+     padding-top: 1.563rem;
+     padding-bottom: 1.563rem;
+     padding-left: 15.625rem;
      font-size: 1.3rem;
  }
  #ul li{
-     padding-top: 7.5px;
-     padding-bottom: 7.5px;
+     padding-top: 0.469rem;
+     padding-bottom: 0.469rem;
  }
  .box{
-     padding: 10px 20px;
-     margin-left: 1380px;
+     padding: 0.625rem 1.25rem;
+     margin-left: 86.25rem;
      /* border: 2px solid red; */
      color: white;
      background-color: black;
-     border-radius: 5px;
+     border-radius: 0.313rem;
      position: sticky;
-     top: 500px;
+     top: 31.25rem;
      text-decoration: none;
      opacity: 0.4;
      transition: 1s;
@@ -275,3 +282,41 @@
  #main1 .box{
      display: none;
  }
+ @media(max-width:1200px){
+    html{
+        font-size: 65%;
+    }
+}
+ @media(max-width:998px){
+     html{
+         font-size: 55%;
+     }
+ }
+ @media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
+@media(max-width:630px){
+    html{
+        font-size: 37%;
+    }
+}
+@media(max-width:500px){
+    html{
+        font-size: 30%;
+    }
+    .r img{
+        display: none;
+    }
+}
+@media(max-width:400px){
+    html{
+        font-size: 25%;
+    }
+}
+@media(max-width:300px){
+    html{
+        font-size: 20%;
+    }
+}
